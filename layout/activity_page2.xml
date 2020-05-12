@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="1"
+    android:background="#0f0f0f"
+    android:orientation="vertical"
+    tools:context=".page2">
+
+    <ImageView
+        android:id="@+id/backgroundpg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:alpha="1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/entrywallpaper" />
+
+    <TextView
+        android:id="@+id/chplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artifika"
+        android:text="Choose Your Plan"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/backgroundpg1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+
+    <TextView
+        android:id="@+id/ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artifika"
+        android:text="Change Doesn't Happen OverNight "
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/backgroundpg1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/begin"
+        android:layout_width="315sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="200sp"
+        android:alpha="0.9"
+        android:background="@drawable/rippleblack"
+        android:fontFamily="@font/artifika"
+        android:paddingTop="10sp"
+        android:paddingRight="25sp"
+        android:text="Beginner"
+        android:textAlignment="textEnd"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/backgroundpg1"
+        app:layout_constraintStart_toEndOf="@+id/backgroundpg1"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="250sp"
+        android:fontFamily="@font/artifika"
+        android:text="5-15 Min Of Training"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/inter"
+        android:layout_width="315sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="300sp"
+        android:alpha="0.9"
+        android:background="@drawable/rippleblack"
+        android:fontFamily="@font/artifika"
+        android:paddingTop="10sp"
+        android:paddingRight="25sp"
+        android:text="Intermediate"
+        android:textAlignment="textEnd"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/backgroundpg1"
+        app:layout_constraintStart_toEndOf="@+id/backgroundpg1"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="350sp"
+        android:fontFamily="@font/artifika"
+        android:text="15-30 Min Of Training"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/advane"
+        android:layout_width="315sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="400sp"
+        android:alpha="0.9"
+        android:background="@drawable/rippleblack"
+        android:fontFamily="@font/artifika"
+        android:paddingTop="10sp"
+        android:paddingRight="25sp"
+        android:text="Advance"
+        android:textAlignment="textEnd"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/backgroundpg1"
+        app:layout_constraintStart_toEndOf="@+id/backgroundpg1"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="450sp"
+        android:fontFamily="@font/artifika"
+        android:text="30-45 Min Of Training"
+        android:background="@drawable/rippletransparent"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/planselector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/beginner"
+            android:layout_width="290sp"
+            android:layout_height="80sp"
+            android:textColor="@android:color/transparent"
+            android:checked="true"
+            android:layout_marginTop="0sp"
+            android:buttonTint="#fff"
+            android:text="Beginner" />
+
+        <RadioButton
+            android:id="@+id/intermediate"
+            android:layout_width="290sp"
+            android:layout_height="80sp"
+            android:textColor="@android:color/transparent"
+            android:layout_marginTop="21sp"
+            android:buttonTint="#fff"
+            android:text="Intermediate" />
+
+        <RadioButton
+            android:id="@+id/advance1"
+            android:layout_width="290sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="19sp"
+            android:buttonTint="#fff"
+            android:textColor="@android:color/transparent"
+            android:fontFamily="@font/artifika"
+            android:text="Advance"
+            android:textAlignment="textEnd" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/selectplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600sp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/artifika"
+        android:text="Done"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundpg1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

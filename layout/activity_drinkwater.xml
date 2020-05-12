@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drinkwater">
+    <ImageView
+        android:id="@+id/backgroundpg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:alpha="1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/entrywallpaper" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="695dp"
+        android:alpha="0.975"
+        android:background="@drawable/radius"
+        android:backgroundTint="#fff"
+        android:fontFamily="@font/artifika"
+        android:paddingTop="20dp"
+        android:text="Drink Water"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/backgroundpg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/backgroundpg2"
+        app:layout_constraintTop_toBottomOf="@+id/backgroundpg2" />
+
+    <ScrollView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:alpha="1"
+        android:layout_marginEnd="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/inmonday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/artifika"
+                android:paddingLeft="10sp"
+                android:paddingBottom="2sp"
+                android:text="200-500 ml of Water"
+                android:background="@drawable/rippletransparent"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/intuesday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/artifika"
+                android:paddingTop="0sp"
+                android:paddingLeft="10sp"
+                android:text="Before Starting Exercise"
+                android:background="@drawable/rippletransparent"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/inwednesday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/artifika"
+                android:paddingTop="5sp"
+                android:paddingLeft="10sp"
+                android:background="@drawable/rippletransparent"
+                android:text="200-500 ml ( 7-15 oz) of water during exercise,\nIt Helps You to keep warm"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/inwednesda3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/artifika"
+                android:paddingBottom="5sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="40sp"
+                android:background="@drawable/rippletransparent"
+                android:text="To gain weight or to maintain it,\nMeal beofore 30 - 45 min of exercise,\nHelps to maintain Your Body weight"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/inwednesday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/artifika"
+                android:paddingBottom="5sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="0sp"
+                android:background="@drawable/rippletransparent"
+                android:text="To loose weight,\nDrinking hot water without taking meal decreases weight as,\nIn the absence of glucose the metabolic rate falls which causes increase in blood sugar to compensate for the lack of glucose in intra-cellular fluids."
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
